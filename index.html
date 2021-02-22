@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Asaf's Personal Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="">Personal Site</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav  ml-auto">
+        <li class="nav-item">
+          <button type="button" class="btn btn-dark navbarText" data-toggle="modal" data-target="#contactModal">
+            Contacts
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-dark navbarText" data-toggle="modal" data-target="#downloadModal">
+            Downloads
+          </button>
+          
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a class="nav-link navBarText" href="https://drive.google.com/file/d/1HIQ3M5DbqSTiE_EKzYBfI9HRs0ZfYcb2/view?usp=sharing">Download</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="top-container" align="center">
+    <div class = "intro">
+      <h1 class="name">I'm Asaf</h1>
+      <p class = "job" >A web developer</p>
+    </div>
+    
+    <div class="about">
+      <h3>About</h3>
+      <p class = "aboutDesc" >Enthusiastic software developer eager to contribute to team success through hard work, attention to detail and excellent
+        organizational skills. Clear understanding of Java and Algorithms. Motivated to learn, grow and excel in Information Technology
+        industry.</p>
+    </div>
+    <div class = "education">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 details">
+          <h3 class = "education">Education</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 details">
+          <h4>Undergraduation</h4>
+          <hr>
+          <h5>Bits Pilani</h5>`
+          <p>CGPA - 6.54</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 details" >
+          <h4>Inter</h4>
+          <hr>
+          <h5>DPS Gaya</h5>`
+          <p>Percentage - 93.4</p>
+      </div>
+    </div>
+    
+    
+   
+  </div>
+  <div class="middle-container">
+      <section id = "project-section">
+        <h2>Projects</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
+            <div class="carousel-item active projects">
+              <div class = "projects-row">
+                <h3> Change Impact Analysis</h3>
+                  <p class ="project-details">
+                    Developed a plugin in Eclipse using <b>JDT</b> and IntelliJ 
+                    using PSI along with recursion algorithms which enabled
+                    the developer/tester to traverse through a Spring Boot 
+                    application layer by layer (Controller, Service and Dao).
+    
+                  </p>
+              </div>
+            </div>
+            <div class="carousel-item" role="listbox" style=" width:100%; height: 500px !important;">
+              <div class = "projects-row">
+                <h3> Sql to Excel Parser</h3>
+                <p class ="project-details">
+                  Developed a java application to parse SQL script file using
+                  ANTLR tool and make an excel file using the script file. The
+                  application handled all types of SQL queries and made
+                  modifications in the corresponding excel file accordingly.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" role="listbox" style=" width:100%; height: 500px !important;">
+              <div class = "projects-row">
+                <h3> Screen Modification</h3>
+                <p class ="project-details"></p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+      </section >
+      
+
+      <section id = "development-section">
+        <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Project 1 Title </h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Technologies used <small class="text-muted">/ mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <p>What it does</p>
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-outline-dark">Link to the project</button>
+            </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 users included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-outline-dark">Get started</button>
+            </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 users included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-outline-dark">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="bottom-container">
+
+        <section id = "footer">
+          <a href="" class="fa fa-facebook"></a>
+          <a href="http://linkedin.com/in/asaf-ahmad" class="fa fa-linkedin"></a>
+          
+        
+        </section>
+          
+      </div>
+  </div>
+  
+</body>
+
+</html>
